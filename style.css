@@ -59,6 +59,14 @@ body{
     color: #00abf0;
 }
 
+.header .toggle_btn{
+    color:#ededed;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+}
+
 .home{
     background-size: cover;
     background-position: center;
