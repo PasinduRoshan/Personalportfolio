@@ -59,6 +59,11 @@ body{
     color: #00abf0;
 }
 
+.header .toggle_btn{
+    color: aqua;
+    font-size: 1.5rem;
+    cursor: crosshair;
+}
 
 .home{
     background-size: cover;
