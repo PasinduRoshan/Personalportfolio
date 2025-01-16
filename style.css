@@ -17,7 +17,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 10%;
+    padding: 1.25rem 10%;
     background: transparent;
     display: flex;
     justify-content: space-between;
@@ -27,7 +27,7 @@ body{
 
 .logo{
     position: relative;
-    font-size: 25px;
+    font-size: 1.5rem;
     color: #ededed;
     text-decoration: none;
     font-weight: 600;
@@ -46,7 +46,7 @@ body{
 }
 
 .navbar a {
-    font-size: 18px;
+    font-size: 1rem;
     color: #ededed;
     text-decoration: none;
     font-weight: 500;
@@ -74,7 +74,7 @@ body{
 
 .home-content h1{
     position: relative;
-    font-size: 50px;
+    font-size: 3.1rem;
     font-weight: 700;
     color: #ededed;
     line-height: 1.2;
@@ -94,7 +94,7 @@ body{
 
 .home-content h3{
     position: relative;
-    font-size: 22px;
+    font-size: 1.3rem;
     font-weight: 700;
     color: #00abf0;
 }
@@ -113,7 +113,7 @@ body{
 
 .home-content p{
     position: relative;
-    font-size: 16px;
+    font-size: 1rem;
     color: #ededed;
     margin: 20px 0 40px;
 }
@@ -162,7 +162,7 @@ body{
     background: #00abf0;
     border: 2px solid #00abf0;
     border-radius: 8px;
-    font-size: 19px;
+    font-size: 1.1rem;
     color: #081b29;
     text-decoration: none;
     font-weight: 600;
@@ -236,7 +236,7 @@ body{
     background: transparent;
     border: 2px solid #00abf0;
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #00abf0;
     text-decoration: none;
     z-index: 1;
