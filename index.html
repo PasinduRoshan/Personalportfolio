@@ -11,17 +11,43 @@
 </head>
 <body>
     <header class="header">
-        <a href="#" class="logo">Roshan.</a>
+        <a href="index.html" class="logo">Roshan.</a>
 
         <nav class="navbar">
-            <a href="index.html" class="active">Home</a>
-            <a href="about.html">About</a>
-            <a href="services.html">Services</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
-        <div class="toggle_btn">
-            <i class="fa-solid fa-bars" style="color: #63E6BE;"></i>    </header>
+
+        
+        <div class="toggle_btn" onclick="showSidebar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+
+    
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <h3>Menu</h3>
+            <button class="close-btn" onclick="closeSidebar()">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+        <ul>
+            <li><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="about.html"><i class="fa-solid fa-user"></i> About</a></li>
+            <li><a href="services.html"><i class="fa-solid fa-briefcase"></i> Services</a></li>
+            <li><a href="portfolio.html"><i class="fa-solid fa-image"></i> Portfolio</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+        </ul>
+    </aside>
+
+    <script src="script.js"></script>
+
     <section class="home">
         <div class="home-content">
             <h1>Hi, I'm Pasindu Roshan</h1>
